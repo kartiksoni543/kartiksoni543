@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800;900&amp;display=swap');
+      .header-font { font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif; }
+    </style>
+    <linearGradient id="expGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#22C55E"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(10, 20)">
+    <rect width="1180" height="50" rx="16" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1.5"/>
+    <circle cx="35" cy="25" r="14" fill="rgba(56, 189, 248, 0.15)"/>
+    <text x="35" y="30" class="header-font" font-weight="900" font-size="14" fill="#38BDF8" text-anchor="middle">04</text>
+    <text x="65" y="31" class="header-font" font-weight="800" font-size="18" fill="#FFFFFF" letter-spacing="1">EXPERIENCE &amp; TIMELINE</text>
+    <text x="315" y="31" class="header-font" font-weight="600" font-size="14" fill="#94A3B8">— Professional Track Record &amp; Specialization</text>
+
+    <!-- Right Decorative Line -->
+    <path d="M780 25 H1140" stroke="url(#expGrad)" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  </g>
+</svg>

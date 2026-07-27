@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800;900&amp;display=swap');
+      .footer-font { font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif; }
+    </style>
+
+    <linearGradient id="footerGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+
+    <filter id="glowLine" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#38BDF8" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <g transform="translate(10, 10)">
+    <rect width="1180" height="100" rx="20" fill="#0A0F24" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1.5"/>
+
+    <!-- Glowing Top Accent Line -->
+    <path d="M40 2 H1140" stroke="url(#footerGlow)" stroke-width="2" filter="url(#glowLine)"/>
+
+    <!-- Left Brand -->
+    <text x="40" y="52" class="footer-font" font-weight="900" font-size="20" fill="#FFFFFF" letter-spacing="1">KARTIK SONI</text>
+    <text x="40" y="74" class="footer-font" font-weight="500" font-size="13" fill="#94A3B8">Full Stack Developer &amp; AI Engineer • Handcrafted Product Portfolio</text>
+
+    <!-- Right Brand Badge -->
+    <rect x="940" y="32" width="200" height="38" rx="19" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="1040" y="56" class="footer-font" font-weight="700" font-size="12" fill="#38BDF8" text-anchor="middle" letter-spacing="0.5">DESIGNED FOR EXCELLENCE</text>
+  </g>
+</svg>

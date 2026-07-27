@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mongoGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#47A248"/>
+      <stop offset="100%" stop-color="#116149"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="#0A0F24" stroke="rgba(71, 162, 72, 0.3)" stroke-width="1.5"/>
+  <path d="M60 26 C60 26 78 46 78 65 C78 78 69 88 60 92 C51 88 42 78 42 65 C42 46 60 26 60 26 Z" fill="url(#mongoGrad)"/>
+  <path d="M60 26 V92" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+</svg>

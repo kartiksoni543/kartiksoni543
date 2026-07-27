@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 70" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap');
+      .btn-text { font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif; }
+    </style>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <filter id="btnShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Button 1: View Portfolio -->
+  <g transform="translate(10, 10)">
+    <rect width="210" height="50" rx="16" fill="url(#primaryGrad)" filter="url(#btnShadow)"/>
+    <text x="105" y="31" class="btn-text" font-weight="800" font-size="14" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.3">🌐 VIEW PORTFOLIO ↗</text>
+  </g>
+
+  <!-- Button 2: Download Resume -->
+  <g transform="translate(235, 10)">
+    <rect width="210" height="50" rx="16" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" filter="url(#btnShadow)"/>
+    <text x="105" y="31" class="btn-text" font-weight="700" font-size="14" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.3">📄 GET RESUME</text>
+  </g>
+
+  <!-- Button 3: LinkedIn -->
+  <g transform="translate(460, 10)">
+    <rect width="200" height="50" rx="16" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1.5" filter="url(#btnShadow)"/>
+    <text x="100" y="31" class="btn-text" font-weight="700" font-size="14" fill="#38BDF8" text-anchor="middle" letter-spacing="0.3">💼 LINKEDIN ↗</text>
+  </g>
+
+  <!-- Button 4: GitHub -->
+  <g transform="translate(675, 10)">
+    <rect width="195" height="50" rx="16" fill="url(#purpleGrad)" filter="url(#btnShadow)"/>
+    <text x="97" y="31" class="btn-text" font-weight="800" font-size="14" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.3">⚡ GITHUB</text>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+name: README Asset & Profile Sync
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * 0' # Weekly sync
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Validate README Links & Assets
+        run: |
+          echo "Validating SVG assets and webp paths..."
+          test -f assets/hero.svg
+          test -f assets/profile.webp
+          test -f assets/glass-bg.svg
+          test -f assets/buttons.svg
+          test -f assets/images/portfolio.webp
+          test -f assets/images/auction.webp
+          test -f assets/images/clinic.webp
+          echo "All core assets verified successfully!"
